@@ -1,0 +1,70 @@
+v1.3.0
+
+Nuove Funzionalità:
+- Messaggi Vocali: Implementata pausa/ripresa (Invio) e migliorata stabilità riproduzione.
+- Registrazione Vocale: Aggiunta capacità di registrare e inviare messaggi vocali.
+- Lingua Turca: Aggiunta traduzione completa in Turco.
+- Paginazione Messaggi: Navigazione bidirezionale (messaggi precedenti/successivi).
+- Smart Enter: Migliorata gestione pulsanti "Carica precedenti/successivi".
+- Rispondi: Implementata risposta ai messaggi (Ctrl+R).
+- Scorciatoie Registrazione: Scorciatoia configurabile per registrazione (Default: Ctrl+Alt+R).
+- Unisciti a Gruppo: Scorciatoia per "Unisciti tramite Link" (Ctrl+Shift+J).
+- Accessibilità: Opzione "Posizione conteggio non letti" nelle impostazioni.
+
+Miglioramenti:
+- Traduzioni: Aggiunte traduzioni mancanti (IT, ES, TR).
+- Impostazioni: Il tasto "OK" è ora predefinito (Invio salva e chiude).
+- Gestione Link: I link t.me utente aprono direttamente la chat.
+- Menu Contestuale: Migliorato "Copia Testo" e "Copia Link".
+- Navigazione: Migliorato scorrimento lista messaggi.
+
+Correzioni:
+- Smart Enter: Risolti problemi con link e menzioni.
+- Backend: Risolto problema recupero cronologia.
+- Invio Messaggi: I messaggi inviati appaiono subito.
+- Timestamp: Orari convertiti in ora locale.
+- Messaggi Fissati: Risolto problema sblocco.
+- Visualizza Messaggio: Nuova opzione per leggere tutto il messaggio.
+- Cancella Cronologia: Nuova opzione per cancellare cronologia.
+- Navigazione Lista: Il focus non salta all'inizio dopo eliminazione chat.
+
+
+v1.2.0
+
+Nuove Funzionalità:
+- "Invio Intelligente": Premendo Invio su documenti e file audio, questi vengono scaricati e aperti immediatamente in una cartella temporanea (Lo screen reader ora annuncia "Scaricamento..." e "Apertura..." con messaggi localizzati).
+- Download Automatici: vengono eseguiti premendo invio su un video o su un messaggio vocale. Il software li elimina automaticamente all'uscita.
+- Download Manuali: Premendo Ctrl+D i file vengono scaricati senza aprirli.
+- Stato Download: controlla lo stato del download con Ctrl+Shift+D.
+- Impostazioni: Rinominata la scorciatoia "Fissa/Rimuovi dalla lista chat" per chiarezza.
+- Modifica Profilo: Ora puoi modificare Nome, Bio, Username e Foto Profilo (File > Modifica Profilo).
+- Dettagli Messaggio: Premi Alt+V per visualizzare i dettagli completi del messaggio selezionato.
+- Azioni Canale: Opzione "Condividi Link" nel menu contestuale per chat pubbliche; nuova finestra per Unirsi/Richiedere accesso ai canali.
+- Navigazione: La finestra di ricerca ora si nasconde invece di chiudersi, mantenendo i risultati.
+- Lettura Automatica: Le chat vengono segnate come lette automaticamente all'apertura.
+
+Miglioramenti e Correzioni:
+- Migliorata la gestione del focus nelle finestre di dialogo per gli screen reader.
+- Risolta l'intercettazione dei link esterni t.me.
+- Risolto un problema che impediva la chiusura completa dell'applicazione.
+- Disattivato il download automatico dei video per risparmiare dati; i messaggi vocali continuano a scaricarsi automaticamente.
+
+
+v1.1.0
+
+Nuove Funzionalità:
+- Scorciatoie da Tastiera:
+  - Nuova scorciatoia "Cerca" (Ctrl+S).
+  - Nuova scorciatoia "Scarica Media" (Ctrl+D) per scaricare rapidamente gli allegati del messaggio selezionato.
+  - Azioni di Ricerca: Unisciti (Ctrl+J) o Abbandona (Ctrl+L) gruppi/canali rapidamente dai risultati di ricerca.
+- Messaggi Non Letti: Aggiunto il conteggio dei messaggi non letti nella lista chat.
+- Updater Multilingua: La finestra di aggiornamento e il changelog sono ora completamente tradotti nella lingua di sistema.
+- Gestione Media:
+  - I video ora si aprono nel player predefinito di sistema premendo Invio.
+  - Aggiunto un suono di notifica al completamento del download (disattivabile nelle Impostazioni).
+
+Miglioramenti e Correzioni:
+- Prestazioni: Velocità di download significativamente migliorata.
+- Smart Enter: Risolti problemi con l'apertura di link e media premendo Invio.
+- Traduzioni: Corretti problemi di codifica dei caratteri nella finestra di aggiornamento.
+- Stabilità: Migliorata l'affidabilità del sistema di aggiornamento.

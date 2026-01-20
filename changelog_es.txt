@@ -1,0 +1,70 @@
+v1.3.0
+
+Nuevas Características:
+- Mensajes de Voz: Pausa/Reanudar (Enter) y reproducción mejorada.
+- Grabación de Voz: Capacidad para grabar y enviar notas de voz.
+- Idioma Turco: Traducción completa al Turco.
+- Paginación de Mensajes: Navegación bidireccional del historial.
+- Smart Enter: Gestión mejorada de botones de carga.
+- Responder: Lógica "Responder a mensaje" (Ctrl+R).
+- Atajos de Grabación: Atajo configurable para grabar (Ctrl+Alt+R).
+- Unirse a Grupo: Atajo para "Unirse vía Enlace" (Ctrl+Shift+J).
+- Accesibilidad: Opción "Posición contador no leídos".
+
+Mejoras:
+- Traducciones: Añadidas faltantes (IT, ES, TR).
+- Ajustes: Botón "OK" predeterminado.
+- Enlaces: Enlaces t.me de usuario abren el chat directamente.
+- Menú Contextual: Mejorado copiar texto y enlace.
+- Navegación: Mejorado desplazamiento.
+
+Correcciones:
+- Smart Enter: Arreglados enlaces y menciones.
+- Backend: Arreglado historial inverso.
+- Envío Mensajes: Feedback inmediato.
+- Marcas de Tiempo: Hora local.
+- Mensajes Fijados: Arreglado desanclar.
+- Ver Mensaje: Opción para leer mensaje completo.
+- Borrar Historial: Opción para borrar chat.
+- Navegación Lista: Foco mantenido al borrar chat.
+
+
+v1.2.0
+
+Nuevas Características:
+- "Smart Enter": Al presionar Enter en documentos y archivos de audio, estos se descargan y abren inmediatamente en una carpeta temporal (El lector de pantalla ahora anuncia "Descargando..." y "Abriendo..." con mensajes localizados).
+- Descargas Automáticas: se realizan al presionar enter en un video o en un mensaje de voz. El software los elimina automáticamente al salir.
+- Descargas Manuales: al presionar Ctrl+D los archivos se descargan sin abrirse.
+- Estado de Descarga: comprueba el estado de la descarga con Ctrl+Shift+D.
+- Configuración: Renombrado el atajo "Fijar/Desfijar de la lista de chats" para mayor claridad.
+- Edición de Perfil: Ahora puedes editar tu Nombre, Bio, Usuario y Foto de Perfil (Archivo > Editar Perfil).
+- Detalles del Mensaje: Presiona Alt+V para ver los detalles completos del mensaje seleccionado.
+- Acciones de Canal: Opción de "Compartir Enlace" en el menú contextual para chats públicos; nuevo diálogo para Unirse/Solicitar acceso a canales.
+- Navegación: La ventana de búsqueda ahora se oculta en lugar de cerrarse, conservando los resultados.
+- Lectura Automática: Los chats se marcan como leídos automáticamente al abrirse.
+
+Mejoras y Correcciones:
+- Mejorada la gestión del foco en los diálogos para lectores de pantalla.
+- Solucionada la intercepción de enlaces externos t.me.
+- Solucionado un problema que impedía el cierre completo de la aplicación.
+- Desactivada la descarga automática de videos para ahorrar datos; las notas de voz se siguen descargando automáticamente.
+
+
+v1.1.0
+
+Nuevas Características:
+- Atajos de Teclado:
+  - Nuevo atajo "Buscar" (Ctrl+S).
+  - Nuevo atajo "Descargar Multimedia" (Ctrl+D) para descargar rápidamente los archivos adjuntos del mensaje seleccionado.
+  - Acciones de Búsqueda: Unirse (Ctrl+J) o Salir (Ctrl+L) de grupos/canales rápidamente desde los resultados de búsqueda.
+- Contador de No Leídos: Añadido contador de mensajes no leídos en la lista de chats.
+- Actualizador Multilingüe: El diálogo de actualización y el historial de cambios ahora están completamente traducidos.
+- Gestión de Multimedia:
+  - Los videos ahora se abren en el reproductor predeterminado del sistema al presionar Enter.
+  - Añadido sonido de notificación al completar una descarga (se puede desactivar en Configuración).
+
+Mejoras y Correcciones:
+- Rendimiento: Velocidad de descarga significativamente mejorada.
+- Smart Enter: Corregidos problemas al abrir enlaces y multimedia con Enter.
+- Traducciones: Corregidos problemas de codificación de caracteres en el diálogo de actualización.
+- Estabilidad: Mejorada la fiabilidad del sistema de actualización.

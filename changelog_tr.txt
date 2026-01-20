@@ -1,0 +1,50 @@
+v1.3.0
+
+Yeni Özellikler:
+- Sesli Mesajlar: Duraklat/Devam Et (Enter) ve iyileştirilmiş oynatma.
+- Ses Kaydı: Sesli mesaj kaydetme ve gönderme özelliği.
+- Türkçe Dili: Tam Türkçe çeviri eklendi.
+- Mesaj Sayfalandırma: Geçmişte iki yönlü gezinme.
+- Akıllı Enter: Yükleme butonları için gelişmiş mantık.
+- Yanıtla: "Mesaja Yanıt Ver" mantığı (Ctrl+R).
+- Kayıt Kısayolları: Kayıt için yapılandırılabilir kısayol (Ctrl+Alt+R).
+- Gruba Katıl: "Bağlantı ile Katıl" kısayolu (Ctrl+Shift+J).
+- Erişilebilirlik: Okunmamış sayaç konumu seçeneği.
+
+İyileştirmeler:
+- Çeviriler: Eksik çeviriler eklendi.
+- Ayarlar: "Tamam" butonu varsayılan yapıldı.
+- Bağlantı Yönetimi: t.me kullanıcı bağlantıları doğrudan sohbeti açar.
+- Bağlam Menüsü: Metin ve Bağlantı kopyalama iyileştirildi.
+- Gezinme: Kaydırma davranışı iyileştirildi.
+
+Düzeltmeler:
+- Akıllı Enter: Bağlantılar ve bahsetmeler düzeltildi.
+- Altyapı: Geçmiş yükleme sorunu düzeltildi.
+- Mesaj Gönderme: Anında geri bildirim.
+- Zaman Damgaları: Yerel saat dilimi.
+- Sabitlenmiş Mesajlar: Sabitlemeyi kaldırma sorunu düzeltildi.
+- Mesajı Görüntüle: Mesajı okumak için yeni seçenek.
+- Geçmişi Temizle: Sohbet geçmişini silme seçeneği.
+- Liste Gezinme: Sohbet silindikten sonra odak sorunu düzeltildi.
+
+
+v1.2.0
+
+New Features:
+- "Smart Enter": Pressing Enter on documents and audio files now downloads and opens them immediately in a temporary folder (Screen reader now announces "Downloading..." and "Opening..." with localized messages).
+- Automatic downloads: those are performed when pressing enter on a video or on a voice message. The software automatically deletes them when exiting the program
+- Manual Downloads: Pressing Ctrl+D downloads files without opening them.
+- Download status: check the download status with ctrl shift d
+- Settings: Renamed "Pin/Unpin Chat" shortcut to "Pin/Unpin from Chat List" for clarity.
+- Profile Editing: You can now edit your Name, Bio, Username, and Profile Photo (File > Edit Profile).
+- Message Details: Press Alt+V to view full details of a selected message.
+- Channel Actions: Context menu option to "Share Link" for public chats; new dialog to Join/Request to Join channels.
+- Navigation: Search window now hides instead of closing, preserving your search results.
+- Auto-Read: Chats are automatically marked as read when opened.
+
+Improvements & Fixes:
+- Improved focus management in dialogs for screen readers.
+- Fixed interception of external t.me links.
+- Fixed an issue where the application would not close completely.
+- Disabled automatic video downloads to save data; voice messages still auto-download.

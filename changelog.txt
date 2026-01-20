@@ -1,0 +1,50 @@
+v1.3.0
+
+New Features:
+- Voice Messages: Implemented Pause/Resume functionality (Enter key) and improved playback stability.
+- Voice Recording: Added capability to record and send voice messages.
+- Turkish Language: Added full Turkish (TR) translation.
+- Message Pagination: Added bidirectional history navigation (load older/newer messages).
+- Smart Enter: Enhanced logic to handle "Load Newer" / "Load Older" buttons directly.
+- Reply Functionality: Implemented "Reply to Message" logic using Ctrl+R.
+- Voice Recording Shortcuts: Added configurable shortcut for Voice Recording (Default: Ctrl+Alt+R).
+- Join Group Hotkeys: Added configurable hotkeys for "Join Group via Link" (Default: Ctrl+Shift+J).
+- Accessibility: Added "Unread count position" option in Settings.
+
+Improvements:
+- Translations: Added missing translations in IT, ES, TR.
+- Settings UI: The "OK" button is now the default button (Enter saves and closes).
+- Link Handling: Clicking a t.me user link now directly opens the chat window.
+- Context Menu: Fixed "Copy Text" and "Copy Link" behavior.
+- Navigation: Improved scrolling behavior after loading newer messages.
+
+Bug Fixes:
+- Smart Enter: Fixed regression with links and mentions.
+- Backend: Fixed get_chat_history reverse fetching issue.
+- Message Sending: Sent messages now appear immediately.
+- Timestamps: Fixed UTC timestamp issue (now local time).
+- Pinned Messages: Fixed unpinning issue.
+- View Message: Added "View Message" context menu option.
+- Clear History: Added "Clear Chat History" context menu option.
+- List Navigation: Fixed focus jump after deleting a chat.
+
+
+v1.2.0
+
+New Features:
+- "Smart Enter": Pressing Enter on documents and audio files now downloads and opens them immediately in a temporary folder (Screen reader now announces "Downloading..." and "Opening..." with localized messages).
+- Automatic downloads: those are performed when pressing enter on a video or on a voice message. The software automatically deletes them when exiting the program
+- Manual Downloads: Pressing Ctrl+D downloads files without opening them.
+- Download status: check the download status with ctrl shift d
+- Settings: Renamed "Pin/Unpin Chat" shortcut to "Pin/Unpin from Chat List" for clarity.
+- Profile Editing: You can now edit your Name, Bio, Username, and Profile Photo (File > Edit Profile).
+- Message Details: Press Alt+V to view full details of a selected message.
+- Channel Actions: Context menu option to "Share Link" for public chats; new dialog to Join/Request to Join channels.
+- Navigation: Search window now hides instead of closing, preserving your search results.
+- Auto-Read: Chats are automatically marked as read when opened.
+
+Improvements & Fixes:
+- Improved focus management in dialogs for screen readers.
+- Fixed interception of external t.me links.
+- Fixed an issue where the application would not close completely.
+- Disabled automatic video downloads to save data; voice messages still auto-download.
