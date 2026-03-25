@@ -1,0 +1,27 @@
+Nouveautés:
+- Option pour copier automatiquement les résultats de l'IA dans le presse-papiers.
+- Option pour jouer un son pendant le traitement de l'IA.
+- Ajout des traductions français, russe et ukrainien.
+- Traduction des messages via Gemini.
+- Notifications système avancées.
+- Sessions sécurisées chiffrées.
+- Système de rapport de bugs.
+- Création et modération de groupes/canaux.
+- Sondages interactifs.
+- Gestion des topics.
+- Paramètres de confidentialité.
+- Réactions aux messages.
+- Nouvelle chat accessible.
+- Options d’accessibilité avancées.
+
+Correctifs:
+- Correction audio et latence.
+- Correction affichage durée messages.
+- Correction navigation et focus.
+- Correction téléchargements.
+- Correction traductions manquantes.
+- Correction notifications.
+- Amélioration performances.
+- Correction sessions.
+- Correction sondages.
+- Correction topics.
